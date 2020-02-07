@@ -1,21 +1,26 @@
 import React from "react";
 import "./App.css";
 import { Layout, Navigation, Drawer, Content } from "react-mdl";
+import Main from "./components/main";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div
-      style={{ height: "1000px", position: "relative", background: "#F9F8EB" }}
-    >
+    <div style={{ height: "1000px", position: "relative" }}>
       <Layout>
-        <Drawer tyle={{ fontFamily: "monospace" }}>
+        <Drawer style={{ fontFamily: "monospace" }}>
           <Navigation>
-            <a href="#">Resume</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <Link to="/home">Home</Link>
+            <Link to="/aboutme">About Me</Link>
+            <Link to="/resume">Resume</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">contact</Link>
           </Navigation>
         </Drawer>
-        <Content />
+        <Content>
+          <div className="page-content"></div>
+          <Main />
+        </Content>
       </Layout>
     </div>
   );
