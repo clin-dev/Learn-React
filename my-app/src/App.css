@@ -1,1 +1,4 @@
-
+.mdl-layout__inner-container .mdl-layout__drawer-button {
+  margin: auto;
+  color: rgb(118, 118, 118);
+}
