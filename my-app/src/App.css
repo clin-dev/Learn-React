@@ -1,4 +1,11 @@
 .mdl-layout__inner-container .mdl-layout__drawer-button {
+  top: 10px;
+  left: 10px;
   margin: auto;
   color: rgb(118, 118, 118);
+}
+
+.mdl-layout .mdl-layout__inner-container .mdl-layout__header {
+  background-color: transparent;
+  box-shadow: none;
 }
