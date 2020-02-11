@@ -1,11 +1,58 @@
+.mdl-grid {
+  height: 900px;
+}
+
+.home-grid {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .transitionText {
-  padding-top: 100px;
+  padding-top: 300px;
+  padding-left: 200px;
+  color: white;
   font-family: "Courier New", monospace;
   width: 100%;
-  text-align: center;
-  margin: "auto";
   position: absolute;
+  text-align: left;
   font-size: 60px;
   letter-spacing: 15px;
   word-spacing: 1.2px;
+}
+
+.introBox {
+  color: white;
+  text-align: left;
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 3%;
+  float: right;
+}
+
+.introBox span {
+  color: #eb7f5e;
+}
+
+.introBox p {
+  font-family: "Courier New", monospace;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.avatar-img {
+  margin-top: 5%;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
 }

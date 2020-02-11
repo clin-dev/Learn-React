@@ -13,10 +13,10 @@ function App() {
   return (
     <div style={{ height: "1000px", position: "relative" }}>
       <Layout>
-        <Header></Header>
+        <Header className="header-color"></Header>
         <Drawer style={{ fontFamily: "monospace" }}>
           <Navigation>
-            <Link to="/home" onClick={hideToggle}>
+            <Link to="/" onClick={hideToggle}>
               Home
             </Link>
             <Link to="/aboutme" onClick={hideToggle}>

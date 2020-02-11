@@ -2,10 +2,24 @@
   top: 10px;
   left: 10px;
   margin: auto;
-  color: rgb(118, 118, 118);
 }
 
 .mdl-layout .mdl-layout__inner-container .mdl-layout__header {
   background-color: transparent;
   box-shadow: none;
+}
+
+.header-color {
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
