@@ -1,0 +1,60 @@
+.aboutme-grid-1 {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100px;
+}
+
+#top-interest {
+  font-family: "Courier New", monospace;
+  color: white;
+  text-align: center;
+}
+
+.aboutme-grid-2 {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 300px;
+}
+
+.interest-container {
+  position: relative;
+  line-height: 200px;
+  text-align: center;
+  margin: 10px 150px;
+}
+
+/* flipping card */
+.styles__flipping-card___3Epky {
+}
+
+/* flipping card front */
+.styles__front___8t_eb {
+  background-color: white;
+}
+
+/* flipping card back */
+.styles__back___1Qas8 {
+  background-color: rgb(198, 145, 145);
+}
